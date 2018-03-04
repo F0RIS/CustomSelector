@@ -7,5 +7,5 @@
     android:layout_weight="0.3"
     android:gravity="center"
     android:text="Tick"
-    android:textColor="@color/game_tab_empty_text_color"
-    android:textSize="@dimen/game_duration_text_size" />
+    android:textColor="@color/selector_item_text_color"
+    android:textSize="@dimen/selector_item_text_size" />

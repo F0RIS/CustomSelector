@@ -6,21 +6,21 @@
 
     <TextView
         android:id="@+id/tv_duration"
-        android:layout_width="@dimen/game_type_tab_width"
-        android:layout_height="@dimen/graph_style_tab_height"
-        android:background="@drawable/game_tab_top_selected"
+        android:layout_width="@dimen/selector_base_width"
+        android:layout_height="@dimen/selector_item_height"
+        android:background="@drawable/selector_title_bg"
         android:clickable="true"
         android:gravity="center_vertical|center_horizontal"
         android:text="Tick"
-        android:textColor="@color/game_tab_selected_text_color"
-        android:textSize="@dimen/game_duration_text_size" />
+        android:textColor="@color/selector_title_text_color"
+        android:textSize="@dimen/selector_item_text_size" />
 
     <LinearLayout
         android:id="@+id/items_container"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/game_tab_container"
-        android:divider="@drawable/game_tab_divider"
+        android:background="@drawable/selector_container"
+        android:divider="@drawable/selector_divider"
         android:orientation="vertical"
         android:showDividers="middle"
         android:visibility="visible">
@@ -38,13 +38,13 @@
             android:layout_weight="0.3" />
 
         <TextView
-            android:layout_width="@dimen/game_type_tab_width"
+            android:layout_width="@dimen/selector_base_width"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:gravity="center_vertical|center_horizontal"
             android:text="1d"
-            android:textColor="@color/game_tab_empty_text_color"
-            android:textSize="@dimen/game_duration_text_size" />
+            android:textColor="@color/selector_item_text_color"
+            android:textSize="@dimen/selector_item_text_size" />
     </LinearLayout>
 
     <ImageView

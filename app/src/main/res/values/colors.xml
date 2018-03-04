@@ -4,9 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="game_tab_empty_text_color">#067ccc</color>
-    <color name="game_tab_empty_bg">#fff</color>
-    <color name="game_tab_selected_text_color">#fff</color>
-    <color name="game_tab_selected_bg">#067ccc</color>
+    <color name="selector_title_bg_color">#067ccc</color>
+    <color name="selector_title_text_color">#fff</color>
+    <color name="selector_item_bg_color">#fff</color>
+    <color name="selector_item_text_color">#067ccc</color>
     <color name="game_tab_selected_stroke">#067ccc</color>
 </resources>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/game_tab_divider_width" />
+    <size android:height="@dimen/selector_divider_width" />
     <solid android:color="@color/game_tab_selected_stroke" />
 </shape>

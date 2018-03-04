@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/selector_title_bg_color" />
+
+            <stroke
+                android:width="@dimen/selector_border_width"
+                android:color="@color/game_tab_selected_stroke" />
+
+            <corners
+                android:bottomLeftRadius="@dimen/selector_corner_radius"
+                android:bottomRightRadius="@dimen/selector_corner_radius"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/selector_border_width"
+        android:left="@dimen/selector_border_width"
+        android:right="@dimen/selector_border_width"
+        android:top="0dp">
+        <shape>
+            <solid android:color="@color/selector_item_bg_color" />
+
+            <corners
+                android:bottomLeftRadius="@dimen/selector_corner_radius"
+                android:bottomRightRadius="@dimen/selector_corner_radius"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+
+        </shape>
+    </item>
+
+</layer-list>
