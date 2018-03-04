@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/game_tab_selected_bg" />
+
+            <stroke
+                android:width="@dimen/chart_interval_selector_border_width"
+                android:color="@color/game_tab_selected_bg" />
+
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="@dimen/graph_style_tab_corner_radius"
+                android:topRightRadius="@dimen/graph_style_tab_corner_radius" />
+        </shape>
+        <padding
+            android:left="-2px"/>
+    </item>
+    <item
+        android:bottom="@dimen/game_cfd_tab_button_border"
+        android:left="@dimen/game_cfd_tab_button_border"
+        android:right="@dimen/game_cfd_tab_button_border"
+        android:top="@dimen/game_cfd_tab_button_border">
+        <shape>
+            <solid android:color="@color/game_tab_selected_bg" />
+
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="@dimen/graph_style_tab_corner_radius"
+                android:topRightRadius="@dimen/graph_style_tab_corner_radius" />
+
+        </shape>
+    </item>
+
+</layer-list>

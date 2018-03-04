@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/game_tab_selected_bg" />
+
+    <stroke
+        android:width="@dimen/game_cfd_tab_button_border"
+        android:color="@color/game_tab_selected_stroke" />
+
+    <corners
+        android:radius="@dimen/graph_style_tab_corner_radius"/>
+</shape>

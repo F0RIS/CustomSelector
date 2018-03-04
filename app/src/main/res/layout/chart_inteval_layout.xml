@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="@dimen/game_type_tab_width"
+        android:layout_height="@dimen/graph_style_tab_height"
+        android:background="@drawable/game_tab_top_selected"
+        android:clickable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Tick"
+        android:textColor="@color/game_tab_selected_text_color"
+        android:textSize="@dimen/game_duration_text_size" />
+
+    <LinearLayout
+        android:id="@+id/items_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/game_tab_container"
+        android:divider="@drawable/game_tab_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:visibility="visible">
+
+        <include
+            layout="@layout/item_chart_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+
+        <include
+            layout="@layout/item_chart_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:layout_width="@dimen/game_type_tab_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="1d"
+            android:textColor="@color/game_tab_empty_text_color"
+            android:textSize="@dimen/game_duration_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/triangle_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/img_selector"
+        android:tint="@color/game_tab_selected_stroke" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_type_tab_width">58dp</dimen>
+    <dimen name="graph_style_tab_height">33dp</dimen>
+    <dimen name="game_cfd_tab_button_border">1dp</dimen>
+    <dimen name="graph_style_tab_corner_radius">5dp</dimen>
+    <dimen name="chart_interval_selector_border_width">1dp</dimen>
+    <dimen name="game_duration_text_size">17sp</dimen>
+    <dimen name="game_type_tab_height">38dp</dimen>
+    <dimen name="game_tab_divider_width">1dp</dimen>
+</resources>
